@@ -53,8 +53,13 @@ div.top-card {
 h2.subheading {
     margin: 0;
     font-family: 'Black Han Sans';
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 1rem;
+}
+
+h3 {
+    font-family: 'Black Han Sans';
+    font-weight: lighter;
 }
 
 
