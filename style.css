@@ -10,7 +10,10 @@
 .card {
     margin: 65px auto;
     width: min(100ch, 100%);
+    background-color: #E4F0F8;
+    padding: 30px;
 }
+
 
 table {
     width: 100%;
@@ -52,4 +55,9 @@ img.headshot {
     object-fit: none;
     object-position: 60% 25%;
     border-radius: 100%;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
 }
