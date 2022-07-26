@@ -8,168 +8,174 @@
 </head>
 
 <body>
-    <!-- Headshot -->
-    <img src="./headshot.jpg" alt="Man in front of river on a bridge">
-    <h1 id="name">Vinz Angelo Madrigal</h1>
-    <h2>Computer Science Undergrad @ UCR</h2>
-    <!-- Socials -->
-    <h3 id="socials">Socials</h3>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/vinzmadrigal/">LinkedIn</a></li>
-        <li><a href="https://github.com/mvinzangelo">GitHub</a></li>
-        <li><a href="mailto:mvinzangelo@gmail.com">Email</a></li>
-        <li><a href="https://www.instagram.com/mellowjelo/">Instagram</a></li>
-        <li><a href="https://www.youtube.com/user/theK1NG0fgam3s/featured">YouTube</a></li>
-    </ul>
-    <!-- About -->
-    <h3 id="about">About</h3>
-    <p>Hi I'm Vinz. I'm a computer science major at UCR. I was born in the Philippines, but at the young age of four, I
-        immigrated to the United States, and I've lived in Southern California ever since. On my free time, I enjoy
-        playing videogames and working out. I'm still trying to figure out
-        what I really want to do in computer science, but I have a feeling I'm getting closer and closer with every
-        nugget of information I learn about what it has in store.</p>
-    <!-- Work Experience -->
-    <h3 id="work-experience">Work Experience</h3>
-    <table>
-        <tr>
-            <th>Engineers for Good</th>
-            <td>Software Engineer</td>
-            <td>April 2022 - Present</td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <ul>
-                    <li>Developed an animal tracking application in Microsoft PowerApps for MADRA, a dog shelter in
-                        Galway, Ireland</li>
-                    <li>Leveraged Azure Active Directory to implement role based permissioning</li>
-                    <li>Utilized Microsoft Dataverse to create views to query a database hundreds of animal health
-                        records</li>
-                    <li>Took part in weekly standups with a real world end customer on the other side of the world</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <th>UCR Volleyball</th>
-            <td>Data Analyst</td>
-            <td>Aug 2021 - Dec 2021</td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <ul>
-                    <li>Used DataVolley to take stats during games and practices</li>
-                    <li>Utilized T and SQL to intepret and analyze data using the DataVolley R package</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <th>Georg Fischer Signet</th>
-            <td>Software Engineer Intern</td>
-            <td>Jun 2021 - Sep 2021</td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <ul>
-                    <li>Created memory safe embedded software using Rust that interfaced with native flow meters</li>
-                    <li>Utilized TouchGFX to develop an embedded graphics UI running on bare metal</li>
-                    <li>Took part in daily mob programming sessions</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <!-- Education -->
-    <h3 id="education">Education</h3>
-    <table>
-        <tr>
-            <td>University of California, Riverside</th>
-            <td>Computer Science B.S.</td>
-            <td>Sep 2020 - Jan 2024</td>
-        </tr>
-        <tr>
-            <td>Centennial High School</th>
-            <td>International Baccalaureate, AP</td>
-            <td>Aug 2016 - May 2020</td>
-        </tr>
-    </table>
-    <!-- Coursework -->
-    <h3 id="coursework">Coursework</h3>
-    <ul>
-        <li>Algorithms and Data Structures</li>
-        <li>Discrete Structures</li>
-        <li>Intro to Embedded Systems</li>
-        <li>Software Construction</li>
-    </ul>
+
+    <div class="top-card card">
+        <!-- Headshot -->
+        <img class="headshot" src="images/headshot.jpg" alt="Man in front of river on a bridge">
+        <div class="top-info">
+            <h1 id="name">Vinz Angelo Madrigal</h1>
+            <h2 class="subheading">Computer Science Undergrad @ UCR</h2>
+            <!-- Socials -->
+            <ul id="socials">
+                <li><a href="https://www.linkedin.com/in/vinzmadrigal/">LinkedIn</a></li>
+                <li><a href="https://github.com/mvinzangelo">GitHub</a></li>
+                <li><a href="mailto:mvinzangelo@gmail.com">Email</a></li>
+                <li><a href="https://www.instagram.com/mellowjelo/">Instagram</a></li>
+                <li><a href="https://www.youtube.com/user/theK1NG0fgam3s/featured">YouTube</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <!-- About -->
+        <h3 id="about">About</h3>
+        <p>Hi I'm Vinz. I'm a computer science major at UCR. I was born in the Philippines, but at the young age of
+            four, I
+            immigrated to the United States, and I've lived in Southern California ever since. On my free time, I enjoy
+            playing videogames and working out. I'm still trying to figure out
+            what I really want to do in computer science, but I have a feeling I'm getting closer and closer with every
+            nugget of information I learn about what it has in store.</p>
+    </div>
+    <div class="card">
+        <!-- Education -->
+        <h3 id="education">Education</h3>
+        <table>
+            <tr>
+                <td>University of California, Riverside</th>
+                <td>Computer Science B.S.</td>
+                <td>Sep 2020 - Jan 2024</td>
+            </tr>
+            <tr>
+                <td>Centennial High School</th>
+                <td>International Baccalaureate, AP</td>
+                <td>Aug 2016 - May 2020</td>
+            </tr>
+        </table>
+        <!-- Coursework -->
+        <h4 id="coursework">Coursework</h4>
+        <ul>
+            <li>Algorithms and Data Structures</li>
+            <li>Discrete Structures</li>
+            <li>Intro to Embedded Systems</li>
+            <li>Software Construction</li>
+        </ul>
+    </div>
+    <div class="card">
+        <!-- Work Experience -->
+        <h3 id="work-experience">Work Experience</h3>
+        <table>
+            <tr>
+                <th>Engineers for Good</th>
+                <td>Software Engineer</td>
+                <td>April 2022 - Present</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Developed an animal tracking application in Microsoft PowerApps for MADRA, a dog shelter in
+                            Galway, Ireland</li>
+                        <li>Leveraged Azure Active Directory to implement role based permissioning</li>
+                        <li>Utilized Microsoft Dataverse to create views to query a database hundreds of animal health
+                            records</li>
+                        <li>Took part in weekly standups with a real world end customer on the other side of the world
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>UCR Volleyball</th>
+                <td>Data Analyst</td>
+                <td>Aug 2021 - Dec 2021</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Used DataVolley to take stats during games and practices</li>
+                        <li>Utilized T and SQL to intepret and analyze data using the DataVolley R package</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Georg Fischer Signet</th>
+                <td>Software Engineer Intern</td>
+                <td>Jun 2021 - Sep 2021</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Created memory safe embedded software using Rust that interfaced with native flow meters
+                        </li>
+                        <li>Utilized TouchGFX to develop an embedded graphics UI running on bare metal</li>
+                        <li>Took part in daily mob programming sessions</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="card">
+        <!-- Projects -->
+        <h3 id="projects">Projects</h3>
+        <table>
+            <tr>
+                <th><a href="https://github.com/mvinzangelo/rogue">Rouge</a></th>
+                <td>C++, ArduinoIDE</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Recreated the classic videogame Rouge on an Arduino UNO microcontroller and a Nokia 5110 LCD
+                        </li>
+                        <li>Utilized the PROGMEM library to store the game map and dynamically switch the active room to
+                            solve memory constraints</li>
+                        <li>Created enmies with unique stats and pathfinding AI</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th><a href="https://github.com/mvinzangelo/GROWTH">GROWTH</a></th>
+                <td>Unity, C#, Git</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Submitted to Citrus Hack 2021</li>
+                        <li>Completed in 36 hours</li>
+                        <li>A mobile app that tracked user's wellness through self surveys</li>
+                        <li>Users would take care of a plant that grew as more surveys were completed</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th><a href="https://github.com/mvinzangelo/Moon-River">Moon River</a></th>
+                <td>Unity, C#, Git</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <ul>
+                        <li>Submitted to Rose Hack 2021, Winner of Best Game</li>
+                        <li>Completed in 24 hours</li>
+                        <li>Used Unity with completely original handrawn assets to create a story driven side-scroller
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
     <!-- Skills -->
-    <h3 id="skills">Skills</h3>
-    <ul>
-        <li>Languages
-            <ul>
-                <li>C++</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>Rust</li>
-                <li>C#</li>
-            </ul>
-        </li>
-        <li>Tools
-            <ul>
-                <li>Linux</li>
-                <li>Unity</li>
-                <li>Git/Github</li>
-                <li>PowerApps</li>
-                <li>VSCode</li>
-                <li>ArduinoIDE</li>
-                <li>Vim</li>
-            </ul>
-        </li>
-    </ul>
-    <!-- Projects -->
-    <h3 id="projects">Projects</h3>
-    <table>
-        <tr>
-            <th><a href="https://github.com/mvinzangelo/rogue">Rouge</a></th>
-            <td>C++, ArduinoIDE</td>
-        </tr>
-        <tr>
-            <td colspan="3">
+    <div class="card">
+        <h3 id="skills">Skills</h3>
+        <ul>
+            <li>Languages
                 <ul>
-                    <li>Recreated the classic videogame Rouge on an Arduino UNO microcontroller and a Nokia 5110 LCD
-                    </li>
-                    <li>Utilized the PROGMEM library to store the game map and dynamically switch the active room to
-                        solve memory constraints</li>
-                    <li>Created enmies with unique stats and pathfinding AI</li>
+                    <li>C++, JavaScript, HTML, CSS, Python, Rust, C#</li>
                 </ul>
-            </td>
-        </tr>
-        <tr>
-            <th><a href="https://github.com/mvinzangelo/GROWTH">GROWTH</a></th>
-            <td>Unity, C#, Git</td>
-        </tr>
-        <tr>
-            <td colspan="3">
+            </li>
+            <li>Tools
                 <ul>
-                    <li>Submitted to Citrus Hack 2021</li>
-                    <li>Completed in 36 hours</li>
-                    <li>A mobile app that tracked user's wellness through self surveys</li>
-                    <li>Users would take care of a plant that grew as more surveys were completed</li>
+                    <li>Linux, Unity, Git/GitHub, PowerApps, VSCode, ArduinoIDE, Vim</li>
                 </ul>
-            </td>
-        </tr>
-        <tr>
-            <th><a href="https://github.com/mvinzangelo/Moon-River">Moon River</a></th>
-            <td>Unity, C#, Git</td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <ul>
-                    <li>Submitted to Rose Hack 2021, Winner of Best Game</li>
-                    <li>Completed in 24 hours</li>
-                    <li>Used Unity with completely original handrawn assets to create a story driven side-scroller</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
