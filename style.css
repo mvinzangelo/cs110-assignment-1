@@ -4,11 +4,12 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
+    line-height: 1.9;
 }
 
 .card {
     margin: 65px auto;
-    width: min(110ch, 100%);
+    width: min(100ch, 100%);
 }
 
 table {
@@ -26,6 +27,7 @@ div.top-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 1.2;
 }
 
 #name {
