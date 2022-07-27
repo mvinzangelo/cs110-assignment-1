@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto&display=swap');
 
+@font-face {
+    font-family: minionsFont;
+    src: url(../fonts/MODERNA_.TTF);
+}
+
 :root {
     --background-color: white;
     --primary-color: #F9DC5C;
@@ -36,7 +41,7 @@ table {
     background-color: black;
     position: absolute;
     top: 0;
-    left: 235px;
+    left: 248px;
 }
 
 div.top-card {
@@ -51,28 +56,28 @@ div.top-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 1.2;
+    line-height: 1.6;
 }
 
 #name {
     margin: 0;
-    font-family: 'Black Han Sans';
-    font-weight: normal;
+    font-family: minionsFont;
+    font-weight: 900;
     padding-top: 60px;
     text-align: center;
 }
 
 h2.subheading {
     margin: 0;
-    font-family: 'Black Han Sans';
+    font-family: minionsFont;
     font-weight: 100;
     font-size: 1rem;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Black Han Sans';
-    font-weight: lighter;
+    font-family: minionsFont;
+    font-weight: bold;
 }
 
 
@@ -83,6 +88,10 @@ ul#socials {
     gap: 20px;
     padding-top: 10px;
     justify-content: center;
+}
+
+.logo {
+    height: 40px;
 }
 
 img.headshot {
