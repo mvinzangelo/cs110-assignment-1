@@ -25,14 +25,18 @@
     margin: 65px auto;
     width: min(100ch, 100%);
     background-color: var(--primary-color);
-    padding: 30px;
+    padding: 50px;
     box-shadow: -15px 21px 0px 0px var(--seconday-color);
-    border-radius: 4px;
+    border-radius: 100px;
 }
 
 
 table {
     width: 100%;
+}
+
+a {
+    color: var(--text-color);
 }
 
 .strap {
@@ -41,7 +45,7 @@ table {
     background-color: black;
     position: absolute;
     top: 0;
-    left: 248px;
+    left: 268px;
 }
 
 div.top-card {
