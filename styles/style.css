@@ -30,11 +30,21 @@ table {
     width: 100%;
 }
 
+.strap {
+    width: 130px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 235px;
+}
+
 div.top-card {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 50px;
     margin-top: 0;
+    position: relative;
 }
 
 .top-info {
@@ -49,6 +59,7 @@ div.top-card {
     font-family: 'Black Han Sans';
     font-weight: normal;
     padding-top: 60px;
+    text-align: center;
 }
 
 h2.subheading {
@@ -81,6 +92,7 @@ img.headshot {
     object-position: 60% 25%;
     border-radius: 100%;
     border: 40px solid #949699;
+    position: relative;
 }
 
 h3 {
