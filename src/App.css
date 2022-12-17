@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.InitialContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainPicture {
+  max-width: 30%;
+  height: auto;
+}
+
 
 /* .App-header {
   background-color: #282c34;
