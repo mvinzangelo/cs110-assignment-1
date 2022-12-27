@@ -14,11 +14,11 @@ function App() {
             He is passionate about creating valuable experiences through software, whether by creating time saving applications or time sinking video games. He’s currently trying to find his place in the expansive world of technology by passionately trying to find what he’s passionate about.
           </p>
           <ul className='Links'>
-            <li>Email</li>
-            <li>Resume</li>
-            <li>LinkedIn</li>
-            <li>Instagram</li>
-            <li>GitHub</li>
+            <li><a href="mailto:mvinzangelo@gmail.com">Email</a></li>
+            <li><a href="https://drive.google.com/file/d/1O5BncBAm-c0WXiU9TzefGFHqYHZ4SBdx/view?usp=sharing" target="_blank">Resume</a></li>
+            <li><a href="https://linkedin.com/in/vinzmadrigal" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/mvinzangelo" target="_blank">GitHub</a></li>
+            <li><a href="https://www.instagram.com/mellowjelo/" target="_blank">Instagram</a></li>
           </ul>
         </div>
       </div>
